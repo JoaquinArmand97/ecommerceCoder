@@ -1,0 +1,178 @@
+[
+    {
+      "id": 0,
+      "title": "Whisky Johnnie Walker Black Label",
+      "description": "Whisky escocés premium con 12 años de añejamiento.",
+      "price": 45.99,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 100,
+      "brand": "Johnnie Walker",
+      "category": "whisky",
+      "thumbnail": "https://dcdn.mitiendanube.com/stores/001/132/733/products/shop-johnnie-red61-6af6c5e3673271592715972883506493-1024-1024.webp",
+      "images": [
+        "https://example.com/images/johnnie_black_1.jpg",
+        "https://example.com/images/johnnie_black_2.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Tequila Don Julio Blanco",
+      "description": "Tequila premium 100% agave azul, ideal para cocteles.",
+      "price": 35.99,
+      "discountPercentage": 10,
+      "rating": 4.6,
+      "stock": 120,
+      "brand": "Don Julio",
+      "category": "tequila",
+      "thumbnail": "https://example.com/images/don_julio_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/don_julio_1.jpg",
+        "https://example.com/images/don_julio_2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ron Bacardí Carta Blanca",
+      "description": "Ron ligero con un sabor suave y equilibrado.",
+      "price": 19.99,
+      "discountPercentage": 5,
+      "rating": 4.5,
+      "stock": 200,
+      "brand": "Bacardí",
+      "category": "ron",
+      "thumbnail": "https://example.com/images/bacardi_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/bacardi_1.jpg",
+        "https://example.com/images/bacardi_2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vodka Absolut",
+      "description": "Vodka sueco de alta calidad, ideal para mezclar.",
+      "price": 25.99,
+      "discountPercentage": 8,
+      "rating": 4.7,
+      "stock": 150,
+      "brand": "Absolut",
+      "category": "vodka",
+      "thumbnail": "https://example.com/images/absolut_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/absolut_1.jpg",
+        "https://example.com/images/absolut_2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Gin Tanqueray London Dry",
+      "description": "Ginebra clásica con un perfil de sabor botánico.",
+      "price": 29.99,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 130,
+      "brand": "Tanqueray",
+      "category": "gin",
+      "thumbnail": "https://example.com/images/tanqueray_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/tanqueray_1.jpg",
+        "https://example.com/images/tanqueray_2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cerveza Heineken",
+      "description": "Cerveza lager premium con sabor refrescante.",
+      "price": 1.99,
+      "discountPercentage": 10,
+      "rating": 4.3,
+      "stock": 500,
+      "brand": "Heineken",
+      "category": "cerveza",
+      "thumbnail": "https://example.com/images/heineken_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/heineken_1.jpg",
+        "https://example.com/images/heineken_2.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Champagne Moët & Chandon Brut Imperial",
+      "description": "Champagne francés con notas afrutadas y elegantes.",
+      "price": 59.99,
+      "discountPercentage": 20,
+      "rating": 4.9,
+      "stock": 50,
+      "brand": "Moët & Chandon",
+      "category": "champagne",
+      "thumbnail": "https://example.com/images/moet_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/moet_1.jpg",
+        "https://example.com/images/moet_2.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Vino Tinto Malbec Catena Zapata",
+      "description": "Vino argentino con cuerpo y notas de frutos rojos.",
+      "price": 25.99,
+      "discountPercentage": 18,
+      "rating": 4.8,
+      "stock": 80,
+      "brand": "Catena Zapata",
+      "category": "vino tinto",
+      "thumbnail": "https://example.com/images/catena_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/catena_1.jpg",
+        "https://example.com/images/catena_2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Vino Blanco Sauvignon Blanc Montes",
+      "description": "Vino chileno fresco con notas cítricas.",
+      "price": 18.99,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 90,
+      "brand": "Montes",
+      "category": "vino blanco",
+      "thumbnail": "https://example.com/images/montes_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/montes_1.jpg",
+        "https://example.com/images/montes_2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Cerveza Corona Extra",
+      "description": "Cerveza mexicana ligera, ideal para acompañar comidas.",
+      "price": 1.89,
+      "discountPercentage": 5,
+      "rating": 4.4,
+      "stock": 600,
+      "brand": "Corona",
+      "category": "cerveza",
+      "thumbnail": "https://example.com/images/corona_thumbnail.jpg",
+      "images": [
+        "https://example.com/images/corona_1.jpg",
+        "https://example.com/images/corona_2.jpg"
+      ]
+    },{
+      "id": 10,
+      "title": "Whisky Johnnie Walker Blue Label",
+      "description": "Whisky escocés ultra premium con un sabor excepcional y exclusivo.",
+      "price": 225.99,
+      "discountPercentage": 10,
+      "rating": 4.9,
+      "stock": 50,
+      "brand": "Johnnie Walker",
+      "category": "whisky",
+      "thumbnail": "https://acdn.mitiendanube.com/stores/001/163/250/products/diseno-sin-titulo-2021-03-22t101123-4901-1ac2ecc39e0a13a38816164188502149-1024-1024.webp",
+      "images": [
+        "https://example.com/images/blue_label_1.jpg",
+        "https://example.com/images/blue_label_2.jpg"
+      ]
+    }
+  ]
+  

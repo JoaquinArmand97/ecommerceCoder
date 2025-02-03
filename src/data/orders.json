@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "createdAt": 1735674760,
+      "idUser": 1,
+      "total": 12000,
+      "products": [
+        {
+          "id": 0,
+          "title": "Whisky Johnnie Walker Black Label",
+          "description": "Whisky escocés premium con 12 años de añejamiento.",
+          "price": 45.99,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 100,
+          "brand": "Johnnie Walker",
+          "category": "whisky",
+          "thumbnail": "https://dcdn.mitiendanube.com/stores/001/132/733/products/shop-johnnie-red61-6af6c5e3673271592715972883506493-1024-1024.webp",
+          "images": [
+            "https://example.com/images/johnnie_black_1.jpg",
+            "https://example.com/images/johnnie_black_2.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+  
