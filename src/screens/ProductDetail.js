@@ -1,20 +1,30 @@
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import React from 'react';
+import { usePostCartMutation } from '../services/cart';
+import { useSelector } from 'react-redux';
+import { setStatusBarNetworkActivityIndicatorVisible } from 'expo-status-bar';
+import { useNavigation } from '@react-navigation/native';
 
+const ProductDetail = ({ route }) => {
+  const navigation = useNavigation()
+  const { product } = route.params;
+  const localId = useSelector(state => state.user.localId)
+  const [triggerAddProduct] = usePostCartMutation()
 
-const ProductDetail = ({route}) => {
+  const handleAddToCart = async () => {
+    const cartProduct = {
+      ...product,
+      quantity: 1
+     
+    };
 
-  const {product} = route.params
-
- 
-
-  const handleAddToCart = () => {
-    console.log("Gracias por comprar");
+    const result = await triggerAddProduct({ localId, cartProduct });
+    navigation.navigate("CartStack")
   };
 
   return (
     <View style={styles.productContainer}>
-      <Image source={{ uri: product.thumbnail }} style={styles.image} resizeMode="contain"  />
+      <Image source={{ uri: product.thumbnail }} style={styles.image} resizeMode="contain" />
       <Text style={styles.name}>{product.name}</Text>
       <Text style={styles.description}>{product.description}</Text>
       <Text style={styles.price}>${product.price}</Text>

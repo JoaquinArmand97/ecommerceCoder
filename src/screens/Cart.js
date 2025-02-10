@@ -1,17 +1,39 @@
 import { StyleSheet, FlatList, View, Pressable , Text} from 'react-native';
 import cart from '../data/cart.json';
 import CardCartProduct from '../components/CardCartProduct';
+import { useGetCartQuery, usePostCartMutation } from '../services/cart';
+import { useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
 
 const Cart = () => {
+
+  const [triggerPost] = usePostCartMutation()
+  const localId = useSelector(state => state.user.localId)
+  const {data:cart} = useGetCartQuery({localId})
+  const [total , setTotal] = useState (0)
+
+  useEffect(()=>{
+    if(cart){
+      setTotal(cart.reduce((acc,item) => acc + item.price * item.quantity ,0 ))
+    }
+  },[cart])
+
+
+  const confirmCart = () => {
+    triggerPost({id: "2" , products:[{id:"2"}], total:120})
+  }
+  
+
   return (
     <View style={styles.container}>
       <FlatList
-        data={cart.products}
-        keyExtractor={item => item.id}
-        renderItem={({ item }) => <CardCartProduct product={item} />}
-      />
+          data={cart} 
+          keyExtractor={(item, index) => item.id || index.toString()} 
+          renderItem={({ item }) => <CardCartProduct product={item} />}
+        />
+
       <View style={styles.footer}>    
-        <Text style={styles.totalText}>Total: $0.00</Text>
+        <Text style={styles.totalText}>Total:{total}$ Arg</Text>
         <Pressable style={styles.checkoutButton}>
           <Text style={styles.checkoutText}>Finalizar Compra</Text>
         </Pressable>

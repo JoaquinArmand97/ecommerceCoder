@@ -39,6 +39,10 @@ const MyProfile = () => {
           >
             <Text style={styles.buttonText}>Actualizar ubicación</Text>
           </TouchableOpacity>
+
+          <Viex>
+            <Text>{user.address}</Text>
+          </Viex>
         </View>
     );
 };
